@@ -4,7 +4,7 @@ AVRDUDE := avrdude
 # Main application file name
 MAIN_APP = main
 # Define F_CPU
-F_CPU = 12000000
+F_CPU = 16000000
 MAIN_HEX_PATH = $(MAIN_APP).hex
 # Options for avr-gcc
 CFLAGS = -g -Os
